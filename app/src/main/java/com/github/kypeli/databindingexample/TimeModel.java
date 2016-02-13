@@ -3,8 +3,8 @@ package com.github.kypeli.databindingexample;
 public class TimeModel {
     private long totalTimeCenti = 0;
 
-    public void addTotalTimeCenti(long centi) {
-        this.totalTimeCenti += centi;
+    public void addTotalTimeCenti(int centiSecond) {
+        this.totalTimeCenti += centiSecond;
     }
 
     public int getMinutes() {
