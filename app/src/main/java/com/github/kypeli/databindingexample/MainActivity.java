@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         binding.setModel(viewModel);
     }
 
-    public void updateData(View v) {
+    public void startStopPressed(View v) {
         viewModel.updateStartStopState();
     }
 }

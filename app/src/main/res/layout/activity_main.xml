@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@{model.running ? @string/stop : @string/start}"
-                android:onClick="updateData"
+                android:onClick="startStopPressed"
                 android:layout_gravity="center" />
         </LinearLayout>
     </RelativeLayout>
