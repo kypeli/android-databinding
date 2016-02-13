@@ -8,7 +8,7 @@ import android.view.View;
 import com.github.kypeli.databindingexample.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-    private MainViewModel viewModel = new MainViewModel();
+    private final MainViewModel viewModel = new MainViewModel();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void updateData(View v) {
-        viewModel.update();
+        viewModel.updateStartStopState();
     }
 }
